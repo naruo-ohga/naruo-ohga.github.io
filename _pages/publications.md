@@ -5,9 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-Publications
-======
-
 ## Published
 
 1. **Naruo Ohga**, Sosuke Ito, Artemy Kolchinsky  
