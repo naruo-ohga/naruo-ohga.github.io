@@ -10,7 +10,7 @@ author_profile: true
 1. **Naruo Ohga**, Sosuke Ito, Artemy Kolchinsky  
 “Thermodynamic Bound on the Asymmetry of Cross-Correlations”  
 [Phys. Rev. Lett. **131**, 077101 (2023)](https://doi.org/10.1103/PhysRevLett.131.077101)
-— [arXiv:2303.13116](https://arxiv.org/abs/2303.13116)  
+--- [arXiv:2303.13116](https://arxiv.org/abs/2303.13116)  
 [Editors' Suggestion]
 [Highlighted in [Physics Magazine Viewpoint](https://physics.aps.org/articles/v16/142)]
 [[Press Release](https://www.s.u-tokyo.ac.jp/ja/press/2023/8610/)]
@@ -18,7 +18,7 @@ author_profile: true
 1. **Naruo Ohga**, Sosuke Ito  
 “Information-geometric structure for chemical thermodynamics: An explicit construction of dual affine coordinates”  
 [Phys. Rev. E **106**, 044131 (2022)](https://doi.org/10.1103/PhysRevE.106.044131)
-— [arXiv:2112.13813](https://arxiv.org/abs/2112.13813)
+--- [arXiv:2112.13813](https://arxiv.org/abs/2112.13813)
 
 
 ## Preprints
