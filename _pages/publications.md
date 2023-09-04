@@ -14,7 +14,7 @@ author_profile: true
 [Editors' Suggestion]
 [Highlighted in [Physics Magazine Viewpoint](https://physics.aps.org/articles/v16/142)]
 [[Press Release](https://www.s.u-tokyo.ac.jp/ja/press/2023/8610/)]<br><br>
-We find that the asymmetry of cross-correlations, a fundamental and often-used statistic, is universally and quantitatively related to the strength of thermodynamic driving (quantified by the cycle affinity).
+We find a universal and quantitative relation between the asymmetry of cross-correlations, a fundamental and often-used statistic, and the cycle affinity (the strength of thermodynamic driving).
 
 1. **Naruo Ohga**, Sosuke Ito  
 “Information-geometric structure for chemical thermodynamics: An explicit construction of dual affine coordinates”  
@@ -27,7 +27,7 @@ We find an information-geometric structure behind chemical thermodynamics, which
 1. Artemy Kolchinsky, **Naruo Ohga**, Sosuke Ito  
 “Thermodynamic bound on spectral perturbations”  
 [arXiv:2304.01714](https://arxiv.org/abs/2304.01714)<br><br>
-We uncover a universal thermodynamic cost (entropy production rate) to realize nonequilibrium features of the eigenvalues of the rate matrix, such as acceleration of relaxation and the frequency of stochastic oscillations.
+We uncover a universal thermodynamic cost (entropy production rate) to realize nonequilibrium features of the eigenvalues of the rate matrix, such as acceleration of relaxation and stochastic oscillations.
 
 1. **Naruo Ohga**, Sosuke Ito  
 “Inferring nonequilibrium thermodynamics from tilted equilibrium using information-geometric Legendre transform”
