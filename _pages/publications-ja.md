@@ -12,12 +12,12 @@ author_profile: true
 --- [arXiv:2303.13116](https://arxiv.org/abs/2303.13116)  
 [Editors' Suggestion]
 [Highlighted in [Physics Magazine Viewpoint](https://physics.aps.org/articles/v16/142)]
-[[Press Release](https://www.s.u-tokyo.ac.jp/ja/press/2023/8610/)]<br><span style="font-size: 10%"></span><br>
+[[Press Release](https://www.s.u-tokyo.ac.jp/ja/press/2023/8610/)]<br style="line-height:6pt">
 相互相関関数の非対称性と呼ばれる基本的でよく使われる統計量が、サイクルの熱力学力（熱力学的駆動力の強さ）と普遍的・定量的に結びつくことを示した。
 
 1. **Information-geometric structure for chemical thermodynamics: An explicit construction of dual affine coordinates**   
 <u>Naruo Ohga</u>, Sosuke Ito, [Phys. Rev. E **106**, 044131 (2022)](https://doi.org/10.1103/PhysRevE.106.044131)
---- [arXiv:2112.13813](https://arxiv.org/abs/2112.13813)<br><br>
+--- [arXiv:2112.13813](https://arxiv.org/abs/2112.13813)<br style="line-height:50pt">
 化学熱力学の背後にある情報幾何構造を発見し、化学熱力学とゆらぎの熱力学に新たなアナロジーを与えた。
 
 ## プレプリント
