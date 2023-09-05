@@ -3,11 +3,14 @@ main:
   - title: "Home"
     url: /about/
   
-  - title: "Publications"
+  - title: "Publications (EN)"
     url: /publications/
     
-  - title: "CV (pdf)"
+  - title: "CV (EN)"
     url: /files/CV_EN.pdf
 
-  - title: "日本語"
-    url: https://naruo-ohga-ja.github.io
+  - title: "Publications (JP)"
+    url: /publications-ja/
+
+  - title: "CV (JP)"
+    url: /files/CV_JP.pdf
