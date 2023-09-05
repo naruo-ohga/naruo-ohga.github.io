@@ -24,7 +24,7 @@ author_profile: true
 
 1. **Thermodynamic bound on spectral perturbations**  
 Artemy Kolchinsky, <u>Naruo Ohga</u>, Sosuke Ito, 
-[arXiv:2304.01714](https://arxiv.org/abs/2304.01714)<br><br>
+[arXiv:2304.01714](https://arxiv.org/abs/2304.01714)<br style="display:block; line-height:22px">
 緩和の加速や確率的な振動などのレート行列の固有値に現れる非平衡挙動を実現するための普遍的な熱力学コスト（エントロピー生成率）を明らかにした。
 
 1. **Inferring nonequilibrium thermodynamics from tilted equilibrium using information-geometric Legendre transform**  
