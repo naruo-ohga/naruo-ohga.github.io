@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Naruo Ohga (大賀 成朗)"
+title: "Naruo Ohga （大賀成朗）"
 excerpt: "Naruo Ohga"
 author_profile: true
 redirect_from: 
