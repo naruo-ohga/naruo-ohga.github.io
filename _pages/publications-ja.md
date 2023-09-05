@@ -18,7 +18,7 @@ author_profile: true
 1. **Information-geometric structure for chemical thermodynamics: An explicit construction of dual affine coordinates**   
 <u>Naruo Ohga</u>, Sosuke Ito, [Phys. Rev. E **106**, 044131 (2022)](https://doi.org/10.1103/PhysRevE.106.044131)
 --- [arXiv:2112.13813](https://arxiv.org/abs/2112.13813)<br><br>
-化学熱力学の背後にある情報幾何構造を発見し、化学熱力学とゆらぎの熱力学に新たなアナロジーを与えた。
+化学熱力学の背後にある情報幾何構造を構成し、化学熱力学とゆらぎの熱力学に新たなアナロジーを与えた。
 
 ## プレプリント
 
