@@ -18,7 +18,7 @@ We find a universal and quantitative relation between the asymmetry of cross-cor
 1. **Information-geometric structure for chemical thermodynamics: An explicit construction of dual affine coordinates**   
 <u>Naruo Ohga</u>, Sosuke Ito, [Phys. Rev. E **106**, 044131 (2022)](https://doi.org/10.1103/PhysRevE.106.044131)
 --- [arXiv:2112.13813](https://arxiv.org/abs/2112.13813)<br><br>
-We find an information-geometric structure behind chemical thermodynamics, which strengthens the analogy between chemical and stochastic thermodynamics.
+We construct an information-geometric structure behind chemical thermodynamics, which strengthens the analogy between chemical and stochastic thermodynamics.
 
 ## Preprints
 
