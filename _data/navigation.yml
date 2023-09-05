@@ -3,14 +3,14 @@ main:
   - title: "Home"
     url: /about/
   
-  - title: "Publications (EN)"
+  - title: "Publications (en)"
     url: /publications/
     
-  - title: "CV (EN)"
+  - title: "CV (en)"
     url: /files/CV_EN.pdf
 
-  - title: "Publications (JP)"
+  - title: "Publications (ja)"
     url: /publications-ja/
 
-  - title: "CV (JP)"
+  - title: "CV (ja)"
     url: /files/CV_JP.pdf
