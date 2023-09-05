@@ -29,5 +29,5 @@ Artemy Kolchinsky, <u>Naruo Ohga</u>, Sosuke Ito,
 
 1. **Inferring nonequilibrium thermodynamics from tilted equilibrium using information-geometric Legendre transform**  
 <u>Naruo Ohga</u>, Sosuke Ito, 
-[arXiv:2112.11008](https://arxiv.org/abs/2112.11008)<br><br>
+[arXiv:2112.11008](https://arxiv.org/abs/2112.11008)</p><p style="margin-top: 100pt">
 しばしば直接測定が難しい非定常過程の熱力学量を、外場下の平衡測定を利用して推定する方法を提案した。
