@@ -7,29 +7,27 @@ author_profile: true
 
 ## 出版論文
 
-1. **Naruo Ohga**, Sosuke Ito, Artemy Kolchinsky  
-“Thermodynamic Bound on the Asymmetry of Cross-Correlations”  
-[Phys. Rev. Lett. **131**, 077101 (2023)](https://doi.org/10.1103/PhysRevLett.131.077101)
+1. **Thermodynamic Bound on the Asymmetry of Cross-Correlations**   
+<u>Naruo Ohga</u>, Sosuke Ito, Artemy Kolchinsky, [Phys. Rev. Lett. **131**, 077101 (2023)](https://doi.org/10.1103/PhysRevLett.131.077101)
 --- [arXiv:2303.13116](https://arxiv.org/abs/2303.13116)  
 [Editors' Suggestion]
 [Highlighted in [Physics Magazine Viewpoint](https://physics.aps.org/articles/v16/142)]
-[[Press Release](https://www.s.u-tokyo.ac.jp/ja/press/2023/8610/)]<br><br>
-We find a universal and quantitative relation between the asymmetry of cross-correlations, a fundamental and often-used statistic, and the cycle affinity (the strength of thermodynamic driving).
+[[Press Release](https://www.s.u-tokyo.ac.jp/ja/press/2023/8610/)]<br><span style="font-size: 10%"></span><br>
+相互相関関数の非対称性と呼ばれる基本的でよく使われる統計量が、サイクルの熱力学力（熱力学的駆動力の強さ）と普遍的・定量的に結びつくことを示した。
 
-1. **Naruo Ohga**, Sosuke Ito  
-“Information-geometric structure for chemical thermodynamics: An explicit construction of dual affine coordinates”  
-[Phys. Rev. E **106**, 044131 (2022)](https://doi.org/10.1103/PhysRevE.106.044131)
+1. **Information-geometric structure for chemical thermodynamics: An explicit construction of dual affine coordinates**   
+<u>Naruo Ohga</u>, Sosuke Ito, [Phys. Rev. E **106**, 044131 (2022)](https://doi.org/10.1103/PhysRevE.106.044131)
 --- [arXiv:2112.13813](https://arxiv.org/abs/2112.13813)<br><br>
-We find an information-geometric structure behind chemical thermodynamics, which strengthens the analogy between chemical and stochastic thermodynamics.
+化学熱力学の背後にある情報幾何構造を発見し、化学熱力学とゆらぎの熱力学のアナロジーを強化した。
 
 ## プレプリント
 
-1. Artemy Kolchinsky, **Naruo Ohga**, Sosuke Ito  
-“Thermodynamic bound on spectral perturbations”  
+1. **Thermodynamic bound on spectral perturbations**  
+Artemy Kolchinsky, <u>Naruo Ohga</u>, Sosuke Ito, 
 [arXiv:2304.01714](https://arxiv.org/abs/2304.01714)<br><br>
-We uncover a universal thermodynamic cost (entropy production rate) to realize nonequilibrium features of the eigenvalues of the rate matrix, such as acceleration of relaxation and stochastic oscillations.
+緩和の加速や確率的な振動などのレート行列の固有値に現れる非平衡挙動を実現するために、普遍的に必要となる熱力学コスト（エントロピー生成）を明らかにした。
 
-1. **Naruo Ohga**, Sosuke Ito  
-“Inferring nonequilibrium thermodynamics from tilted equilibrium using information-geometric Legendre transform”
+1. **Inferring nonequilibrium thermodynamics from tilted equilibrium using information-geometric Legendre transform**  
+<u>Naruo Ohga</u>, Sosuke Ito, 
 [arXiv:2112.11008](https://arxiv.org/abs/2112.11008)<br><br>
-We propose a method to infer thermodynamic quantities of nonstationary processes, which are often difficult to measure directly, from a measurement at equilibrium with external fields applied.
+しばしば直接測定が難しい非定常過程の熱力学量を、外場下の平衡測定を利用して推定する方法を提案した。
