@@ -6,11 +6,11 @@ main:
   - title: "Publications (en)"
     url: /publications/
     
-  - title: "CV (en) [pdf]"
+  - title: "CV (en)"
     url: /files/CV_EN.pdf
 
   - title: "Publications (ja)"
     url: /publications-ja/
 
-  - title: "CV (ja) [pdf]"
+  - title: "CV (ja)"
     url: /files/CV_JP.pdf
