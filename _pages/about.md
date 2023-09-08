@@ -11,7 +11,7 @@ redirect_from:
 
 I am a first-year Ph.D. student in the [Ito group](http://webpark2072.sakura.ne.jp/laben/) at [Department of Physics](https://www.phys.s.u-tokyo.ac.jp/en/), Graduate School of Science, the University of Tokyo.
 
-東京大学 理学系研究科 [物理学専攻](https://www.phys.s.u-tokyo.ac.jp/) [伊藤研究室](http://webpark2072.sakura.ne.jp/lab/) 博士課程1年。<br><br>
+東京大学理学系研究科[物理学専攻](https://www.phys.s.u-tokyo.ac.jp/) [伊藤研究室](http://webpark2072.sakura.ne.jp/lab/) 博士課程1年<br><br>
 
 I have interests in the theoretical aspects of **nonequilibrium thermodynamics**, including stochastic thermodynamics, quantum thermodynamics, and chemical thermodynamics. I use techniques from stochastic processes, matrix analysis, and information theory to uncover universal principles of nonequilibrium systems.
 
