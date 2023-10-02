@@ -15,6 +15,8 @@ I am a first-year Ph.D. student in the [Ito group](http://webpark2072.sakura.ne.
 
 I have interests in the theoretical aspects of **nonequilibrium thermodynamics**, including stochastic thermodynamics, quantum thermodynamics, and chemical thermodynamics. I use techniques from stochastic processes, matrix analysis, and information theory to uncover universal principles of nonequilibrium systems.
 
-ゆらぎの熱力学、量子熱力学、化学熱力学を含む**非平衡熱力学**の理論的側面に興味を持っています。確率過程、行列解析、情報理論などの数理を用いて、非平衡系の普遍的原理を研究しています。
+ゆらぎの熱力学、量子熱力学、化学熱力学を含む**非平衡熱力学**の理論的側面に興味を持っています。確率過程、行列解析、情報理論などの数理を用いて、非平衡系の普遍的原理を研究しています。<br><br>
 
+[Publication list with brief comments](/publications/)
 
+[短い解説付きの論文リスト](/publications-ja)<br><br>
