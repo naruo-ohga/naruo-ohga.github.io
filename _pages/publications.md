@@ -7,6 +7,11 @@ author_profile: true
 
 ## Published
 
+1. **Inferring nonequilibrium thermodynamics from tilted equilibrium using information-geometric Legendre transform**  
+<u>Naruo Ohga</u>, Sosuke Ito, [Phys. Rev. Research **6**, 013315](https://doi.org/10.1103/PhysRevResearch.6.013315)
+--- [arXiv:2112.11008](https://arxiv.org/abs/2112.11008)<br><br>
+We propose a method to infer thermodynamic quantities of nonstationary processes, which are often difficult to measure directly, from a measurement at equilibrium with external fields applied.
+
 1. **Thermodynamic bound on spectral perturbations, with applications to oscillations and relaxation dynamics**  
 Artemy Kolchinsky, <u>Naruo Ohga</u>, Sosuke Ito, [Phys. Rev. Research **6**, 013082](https://doi.org/10.1103/PhysRevResearch.6.013082)
 --- [arXiv:2304.01714](https://arxiv.org/abs/2304.01714)<br><br>
@@ -27,7 +32,4 @@ We construct an information-geometric structure behind chemical thermodynamics, 
 
 ## Preprints
 
-1. **Inferring nonequilibrium thermodynamics from tilted equilibrium using information-geometric Legendre transform**  
-<u>Naruo Ohga</u>, Sosuke Ito, 
-[arXiv:2112.11008](https://arxiv.org/abs/2112.11008)<br><br>
-We propose a method to infer thermodynamic quantities of nonstationary processes, which are often difficult to measure directly, from a measurement at equilibrium with external fields applied.
+--- **None** ---
