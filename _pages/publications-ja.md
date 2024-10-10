@@ -32,4 +32,6 @@ Artemy Kolchinsky, <u>Naruo Ohga</u>, Sosuke Ito, [Phys. Rev. Research **6**, 01
 
 ## プレプリント
 
---- なし ---
+1. **Microscopic theory of Mpemba effects and a no-Mpemba theorem for monotone many-body systems**  
+<u>Naruo Ohga</u>, Hisao Hayakawa, Sosuke Ito, [arXiv:2410.06623](https://arxiv.org/abs/2410.06623)<br><br>
+Mpemba効果の普遍的なミクロ描像を提示するとともに、ミクロモデルに基づいてMpemba効果の不在を厳密に証明する手法を構築しました。
