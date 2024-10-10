@@ -32,4 +32,6 @@ We construct an information-geometric structure behind chemical thermodynamics, 
 
 ## Preprints
 
---- **None** ---
+1. **Microscopic theory of Mpemba effects and a no-Mpemba theorem for monotone many-body systems**  
+<u>Naruo Ohga</u>, Hisao Hayakawa, Sosuke Ito, [arXiv:2410.06623](https://arxiv.org/abs/2410.06623)<br><br>
+We propose a universal microscopic understanding of Mpemba effects and develop a rigorous method for proving the absence of Mpemba effects based on the system's microscopic descriptions.
