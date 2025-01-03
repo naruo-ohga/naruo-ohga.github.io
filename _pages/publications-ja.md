@@ -32,6 +32,10 @@ Artemy Kolchinsky, <u>Naruo Ohga</u>, Sosuke Ito, [Phys. Rev. Research **6**, 01
 
 ## プレプリント
 
+1. **Characteristic oscillations in frequency-resolved heat dissipation of linear time-delayed Langevin systems: Approach from the violation of the fluctuation-dissipation relation**  
+Xin Wang, Ruicheng Bao, <u>Naruo Ohga</u>, [arXiv:2501.01151](https://arxiv.org/abs/2501.01151)<br><br>
+時間遅れ項をもつ線形Langevin方程式の熱散逸の詳細な構造を、Harada–Sasa等式に基づく周波数分解を用いて解析しました。
+
 1. **Microscopic theory of Mpemba effects and a no-Mpemba theorem for monotone many-body systems**  
 <u>Naruo Ohga</u>, Hisao Hayakawa, Sosuke Ito, [arXiv:2410.06623](https://arxiv.org/abs/2410.06623)<br><br>
 Mpemba効果の普遍的なミクロ描像を提示するとともに、ミクロモデルに基づいてMpemba効果の不在を厳密に証明する手法を構築しました。
