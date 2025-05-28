@@ -34,9 +34,9 @@ We construct an information-geometric structure behind chemical thermodynamics, 
 
 1. **Improving variational counterdiabatic driving with weighted actions and computer algebra**
 <u>Naruo Ohga</u> and Takuya Hatomura, [arXiv:2505.18367](https://arxiv.org/abs/2505.18367)<br><br>
-Variational counterdiabatic driving for controlling quantum many-body systems is significantly improved by extending the algebraic characterization of the adiabatic gauge potential.
+We significantly improve variational counterdiabatic driving for controlling quantum many-body systems by extending the algebraic characterization of the adiabatic gauge potential.
 
-1. **Characteristic oscillations in frequency-resolved heat dissipation of linear time-delayed Langevin systems: Approach from the violation of the fluctuation-dissipation relation**  
+1. **Characteristic oscillations in frequency-resolved heat dissipation of linear time-delayed Langevin systems: Approach from the violation of the fluctuation–response relation**  
 Xin Wang, Ruicheng Bao, <u>Naruo Ohga</u>, [arXiv:2501.01151](https://arxiv.org/abs/2501.01151)<br><br>
 We analyze detailed structures of the heat dissipation of linear time-delayed Langevin equations using a frequency decomposition from the Harada–Sasa equality.
 
