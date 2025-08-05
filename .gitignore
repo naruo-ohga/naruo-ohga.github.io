@@ -2,3 +2,5 @@ _site/
 files/*
 !files/CV_EN.pdf
 !files/CV_JP.pdf
+!files/CV.tex
+!files/.latexmkrc
