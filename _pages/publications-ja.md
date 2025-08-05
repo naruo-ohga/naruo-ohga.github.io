@@ -32,7 +32,7 @@ Artemy Kolchinsky, <u>Naruo Ohga</u>, Sosuke Ito, [Phys. Rev. Research **6**, 01
 
 ## プレプリント
 
-1. **Improving variational counterdiabatic driving with weighted actions and computer algebra**
+1. **Improving variational counterdiabatic driving with weighted actions and computer algebra**  
 <u>Naruo Ohga</u> and Takuya Hatomura, [arXiv:2505.18367](https://arxiv.org/abs/2505.18367)<br><br>
 Variational counterdiabatic driving とよばれる量子多体系の制御手法を、adiabatic gauge potentialの代数的な特徴付けを拡張することで大幅に改良しました。
 

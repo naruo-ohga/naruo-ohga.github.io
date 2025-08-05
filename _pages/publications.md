@@ -32,7 +32,7 @@ We construct an information-geometric structure behind chemical thermodynamics, 
 
 ## Preprints
 
-1. **Improving variational counterdiabatic driving with weighted actions and computer algebra**
+1. **Improving variational counterdiabatic driving with weighted actions and computer algebra**  
 <u>Naruo Ohga</u> and Takuya Hatomura, [arXiv:2505.18367](https://arxiv.org/abs/2505.18367)<br><br>
 We significantly improve variational counterdiabatic driving for controlling quantum many-body systems by extending the algebraic characterization of the adiabatic gauge potential.
 
