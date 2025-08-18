@@ -32,6 +32,10 @@ We construct an information-geometric structure behind chemical thermodynamics, 
 
 ## Preprints
 
+1. **Measuring irreversibility by counting: a random coarse-graining framework**  
+Ruicheng Bao, <u>Naruo Ohga</u>, and Sosuke Ito, [arXiv:2508.11586](https://arxiv.org/abs/2508.11586)<br><br>
+We generalize the coarse-graining of stochastic thermodynamics to incorporate a random mapping, and apply it to measuring entropy production simply by counting particles.
+
 1. **Improving variational counterdiabatic driving with weighted actions and computer algebra**  
 <u>Naruo Ohga</u> and Takuya Hatomura, [arXiv:2505.18367](https://arxiv.org/abs/2505.18367)<br><br>
 We significantly improve variational counterdiabatic driving for controlling quantum many-body systems by extending the algebraic characterization of the adiabatic gauge potential.
