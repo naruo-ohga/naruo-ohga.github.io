@@ -32,7 +32,7 @@ Artemy Kolchinsky, <u>Naruo Ohga</u>, Sosuke Ito, [Phys. Rev. Research **6**, 01
 
 ## プレプリント
 
-1. **Interplay between Standard Quantum Detailed Balance and Thermodynamically Consistent Entropy Production**
+1. **Interplay between Standard Quantum Detailed Balance and Thermodynamically Consistent Entropy Production**  
 Xin-Hai Tong, Kohei Yoshimura, Tan Van Vu, and <u>Naruo Ohga</u>, [arXiv:2512.06707](https://arxiv.org/abs/2512.06707)<br><br>
 GKSLマスター方程式の数学的な詳細釣り合い条件と、熱力学的に動機づけられたエントロピー生成率がゼロになる条件との関係を解析しました。
 
