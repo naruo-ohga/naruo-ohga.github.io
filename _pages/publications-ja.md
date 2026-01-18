@@ -7,8 +7,8 @@ author_profile: true
 
 ## 出版論文
 
-1. **Characteristic oscillations in frequency-resolved heat dissipation of linear time-delayed Langevin systems: Approach from the violation of the fluctuation–response relation**  
-Xin Wang, Ruicheng Bao, <u>Naruo Ohga</u>, [Phys. Rev. Research, in press](https://doi.org/10.1103/x2dm-9p8m)
+1. **Characteristic oscillations in frequency-resolved heat dissipation of linear time-delayed Langevin systems: Approach from the violation of the fluctuation response relation**  
+Xin Wang, Ruicheng Bao, <u>Naruo Ohga</u>, [Phys. Rev. Research **8**, 013039 (2026)](https://doi.org/10.1103/x2dm-9p8m)
 --- [arXiv:2501.01151](https://arxiv.org/abs/2501.01151)<br><br>
 時間遅れ項をもつ線形Langevin方程式の熱散逸の詳細な構造を、Harada–Sasa等式に基づく周波数分解を用いて解析しました。
 
