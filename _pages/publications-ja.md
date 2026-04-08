@@ -7,6 +7,11 @@ author_profile: true
 
 ## 出版論文
 
+1. **Improving variational counterdiabatic driving with weighted actions and computer algebra**  
+<u>Naruo Ohga</u> and Takuya Hatomura, [PRX Quantum, in press](https://doi.org/10.1103/rmsy-nypw)
+--- [arXiv:2505.18367](https://arxiv.org/abs/2505.18367)<br><br>
+Variational counterdiabatic driving とよばれる量子多体系の制御手法を、adiabatic gauge potentialの代数的な特徴付けを拡張することで大幅に改良しました。
+
 1. **Characteristic oscillations in frequency-resolved heat dissipation of linear time-delayed Langevin systems: Approach from the violation of the fluctuation response relation**  
 Xin Wang, Ruicheng Bao, <u>Naruo Ohga</u>, [Phys. Rev. Research **8**, 013039 (2026)](https://doi.org/10.1103/x2dm-9p8m)
 --- [arXiv:2501.01151](https://arxiv.org/abs/2501.01151)<br><br>
@@ -44,10 +49,6 @@ GKSLマスター方程式の数学的な詳細釣り合い条件と、熱力学�
 1. **Measuring irreversibility by counting: a random coarse-graining framework**  
 Ruicheng Bao, <u>Naruo Ohga</u>, and Sosuke Ito, [arXiv:2508.11586](https://arxiv.org/abs/2508.11586)<br><br>
 ゆらぎの熱力学における粗視化を、ランダムな対応関係を含むように一般化し、粒子数の計数のみによるエントロピー生成の測定に応用しました。
-
-1. **Improving variational counterdiabatic driving with weighted actions and computer algebra**  
-<u>Naruo Ohga</u> and Takuya Hatomura, [arXiv:2505.18367](https://arxiv.org/abs/2505.18367)<br><br>
-Variational counterdiabatic driving とよばれる量子多体系の制御手法を、adiabatic gauge potentialの代数的な特徴付けを拡張することで大幅に改良しました。
 
 1. **Microscopic theory of Mpemba effects and a no-Mpemba theorem for monotone many-body systems**  
 <u>Naruo Ohga</u>, Hisao Hayakawa, Sosuke Ito, [arXiv:2410.06623](https://arxiv.org/abs/2410.06623)<br><br>
