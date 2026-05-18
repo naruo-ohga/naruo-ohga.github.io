@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Naruo Ohga"
 title_separator          : "-"
 name                     : &name "Naruo Ohga"
-description              : &description "Ph.D. student at the University of Tokyo"
+description              : &description "Postdoctoral researcher at Kyoto University"
 url                      : https://naruo-ohga.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "naruo-ohga.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Naruo Ohga"
   avatar           : "icon_temporary.png"
-  bio              : "Ph.D. student at the University of Tokyo"
-  location         : "Tokyo, Japan"
+  bio              : "Postdoctoral researcher at Kyoto University"
+  location         : "Kyoto, Japan"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=jOdc58QAAAAJ"
