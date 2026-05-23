@@ -42,6 +42,10 @@ Artemy Kolchinsky, <u>Naruo Ohga</u>, Sosuke Ito, [Phys. Rev. Research **6**, 01
 
 ## プレプリント
 
+1. **Cycle affinity and winding localize eigenvalues of Markov generators**  
+Artemy Kolchinsky, <u>Naruo Ohga</u>, and Sosuke Ito, [arXiv:2605.15884](https://arxiv.org/abs/2605.15884)<br><br>
+マルコフ過程の動的性質を特徴づけるレート行列の固有値が従う種々の制約を、サイクルの熱力学力と固有ベクトルの巻き数に基づいて系統的に発見しました。
+
 1. **Interplay between Standard Quantum Detailed Balance and Thermodynamically Consistent Entropy Production**  
 Xin-Hai Tong, Kohei Yoshimura, Tan Van Vu, and <u>Naruo Ohga</u>, [arXiv:2512.06707](https://arxiv.org/abs/2512.06707)<br><br>
 GKSLマスター方程式の数学的な詳細釣り合い条件と、熱力学的に動機づけられたエントロピー生成率がゼロになる条件との関係を解析しました。

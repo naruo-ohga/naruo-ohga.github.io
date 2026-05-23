@@ -42,6 +42,10 @@ We construct an information-geometric structure behind chemical thermodynamics, 
 
 ## Preprints
 
+1. **Cycle affinity and winding localize eigenvalues of Markov generators**  
+Artemy Kolchinsky, <u>Naruo Ohga</u>, and Sosuke Ito, [arXiv:2605.15884](https://arxiv.org/abs/2605.15884)<br><br>
+We systematically discover various constraints on the eigenvalues of rate matrices, which characterize the dynamical properties of Markov processes, based on the cycle affinity and winding number of eigenvectors.
+
 1. **Interplay between Standard Quantum Detailed Balance and Thermodynamically Consistent Entropy Production**  
 Xin-Hai Tong, Kohei Yoshimura, Tan Van Vu, and <u>Naruo Ohga</u>, [arXiv:2512.06707](https://arxiv.org/abs/2512.06707)<br><br>
 We relate the standard quantum detailed balance condition in mathematics for GKSL master equations and the condition for vanishing entropy production rate motivated from thermodynamics.
