@@ -8,9 +8,9 @@ author_profile: true
 ## 出版論文
 
 1. **Improving variational counterdiabatic driving with weighted actions and computer algebra**  
-<u>Naruo Ohga</u> and Takuya Hatomura, [PRX Quantum, in press](https://doi.org/10.1103/rmsy-nypw)
+<u>Naruo Ohga</u> and Takuya Hatomura, [PRX Quantum **7**, 020347 (2026)](https://doi.org/10.1103/rmsy-nypw)
 --- [arXiv:2505.18367](https://arxiv.org/abs/2505.18367)<br><br>
-Variational counterdiabatic driving とよばれる量子多体系の制御手法を、adiabatic gauge potentialの代数的な特徴付けを拡張することで大幅に改良しました。
+変分counterdiabatic drivingとよばれる量子多体系の制御手法を、断熱ゲージポテンシャルの代数的な特徴付けを拡張することで大幅に改良しました。
 
 1. **Characteristic oscillations in frequency-resolved heat dissipation of linear time-delayed Langevin systems: Approach from the violation of the fluctuation response relation**  
 Xin Wang, Ruicheng Bao, <u>Naruo Ohga</u>, [Phys. Rev. Research **8**, 013039 (2026)](https://doi.org/10.1103/x2dm-9p8m)

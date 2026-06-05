@@ -8,7 +8,7 @@ author_profile: true
 ## Published
 
 1. **Improving variational counterdiabatic driving with weighted actions and computer algebra**  
-<u>Naruo Ohga</u> and Takuya Hatomura, [PRX Quantum, in press](https://doi.org/10.1103/rmsy-nypw)
+<u>Naruo Ohga</u> and Takuya Hatomura, [PRX Quantum **7**, 020347 (2026)](https://doi.org/10.1103/rmsy-nypw)
 --- [arXiv:2505.18367](https://arxiv.org/abs/2505.18367)<br><br>
 We significantly improve variational counterdiabatic driving for controlling quantum many-body systems by extending the algebraic characterization of the adiabatic gauge potential.
 
