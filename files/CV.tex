@@ -5,39 +5,41 @@
 \usepackage[usenames]{xcolor}
 \usepackage[varg]{txfonts}
 \usepackage{newtxtext}
-\usepackage{ulem}
+% \usepackage{ulem}
+\let\emph\textbf
+
 \usepackage{ifthen}
 \definecolor{pdarkblue}{rgb}{0.1797, 0.1875, 0.5703}
 \usepackage[dvipdfmx]{hyperref}
 \hypersetup{
     colorlinks=true,
-    citecolor=blue,
-    linkcolor=blue,
-    urlcolor=blue,
+    citecolor=pdarkblue,
+    linkcolor=pdarkblue,
+    urlcolor=pdarkblue,
 }
 \usepackage{pxjahyper} % しおりの文字化けを防ぐ
 
 
 %========== Templates ==========
-% \newcommand{\arXiv}[4]{#1\\``#2''\\\frenchspacing\href{https://arxiv.org/abs/#3}{arXiv:#3} (#4).\nonfrenchspacing}
-\newcommand{\arXiv}[4]{\textbf{``#2''}\\#1\\\frenchspacing\href{https://arxiv.org/abs/#3}{arXiv:#3} (#4).\nonfrenchspacing}
+\newcommand{\arXiv}[4]{#1, ``#2'', \frenchspacing\href{https://arxiv.org/abs/#3}{arXiv:#3} (#4).\nonfrenchspacing}
+% \newcommand{\arXiv}[4]{\textbf{``#2''}\\#1\\\frenchspacing\href{https://arxiv.org/abs/#3}{arXiv:#3} (#4).\nonfrenchspacing}
 % Usage: \arXiv{Authors}{Title}{Identifier}{Year}
 
-% \newcommand{\publication}[6]{#1\\``#2''\\\frenchspacing\href{https://doi.org/#4}{#3} (#5). [\href{https://arxiv.org/abs/#6}{arXiv:#6}]\nonfrenchspacing}
-\newcommand{\publication}[6]{\textbf{``#2''}\\#1\\\frenchspacing\href{https://doi.org/#4}{#3} (#5). [\href{https://arxiv.org/abs/#6}{arXiv:#6}]\nonfrenchspacing}
+\newcommand{\publication}[6]{#1, ``#2'', \frenchspacing\href{https://doi.org/#4}{#3 (#5)}; \href{https://arxiv.org/abs/#6}{arXiv:#6}.\nonfrenchspacing}
+% \newcommand{\publication}[6]{\textbf{``#2''}\\#1\\\frenchspacing\href{https://doi.org/#4}{#3} (#5). [\href{https://arxiv.org/abs/#6}{arXiv:#6}]\nonfrenchspacing}
 % Usage: \publishd{Authors}{Title}{Bibliography}{doi}{Year}{ArXivIdentifier}
 
 
 
 % \newcommand{\ConferenceJP}[7]{#1\\「#2」（#7）\\#3、#4、#6}
 % \newcommand{\ConferenceEN}[7]{#1\\``#2'' (#7)\\#3, #4, #6.}
-\newcommand{\ConferenceJP}[7]{「#2」（#7）\\#3、#4、#6}
-\newcommand{\ConferenceEN}[7]{``#2'' (#7)\\#3, #4, #6.}
+\newcommand{\ConferenceJP}[7]{「#2」（#7）、#3、#4、#6}
+\newcommand{\ConferenceEN}[7]{``#2'' (#7), #3, #4, #6.}
 
 \newcommand{\ifempty}[2]{\if\relax\detokenize{#1}\relax\else#1#2\fi}
 
-\newcommand{\SeminarJP}[7]{「#2」\\\ifempty{#3}{、}#4、#6}
-\newcommand{\SeminarEN}[7]{``#2''\\\ifempty{#3}{, }#4, #6.}
+\newcommand{\SeminarJP}[7]{「#2」\ifempty{#3}{、}#4、#6}
+\newcommand{\SeminarEN}[7]{``#2'', \ifempty{#3}{, }#4, #6.}
 
 % Usage:
 % \ConferenceJP{Author}{Title}{Conference}{Period}{Date}{Venue}{Type}
@@ -49,22 +51,22 @@
 \usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
 \setlength{\parindent}{0pt}
 \renewcommand{\baselinestretch}{0.8}  
-\setlength{\parskip}{5pt}
+\setlength{\parskip}{6pt}
 \setlength{\leftskip}{8pt}
 
 \setcounter{secnumdepth}{0}
 \usepackage{titlesec}
 \titleformat{\section}[hang]{\large\scshape\textgt}{}{0pt}{}[\vspace{-2pt}{\titlerule[0.6pt]}]
-\titlespacing{\section}{0pt}{8pt}{2pt}
+\titlespacing{\section}{0pt}{8pt}{1pt}
 \titleformat{\subsection}[hang]{\scshape\bfseries\textgt}{}{0pt}{}[]
-\titlespacing{\subsection}{0pt}{4pt}{-4pt}
+\titlespacing{\subsection}{0pt}{4pt}{-5pt}
 
 
 
 %========== Multi Language ==========
 \newcounter{mylanguage}
-\setcounter{mylanguage}{0} %English
-% \setcounter{mylanguage}{1} %Japanese
+% \setcounter{mylanguage}{0} %English
+\setcounter{mylanguage}{1} %Japanese
 
 
 \ifodd\value{mylanguage}
@@ -84,97 +86,102 @@
 \normalsize \je{（最終更新：\today）}{(Last modified: \today)}
 \end{center}
 
-\vspace{\baselineskip}
+% \vspace{\baselineskip}
 
-{
-\setlength{\leftskip}{0pt}
-\je
-{京都大学大学院 理学研究科 物理学・宇宙物理学専攻 特定研究員（学振PD）。非平衡熱力学の理論を研究しています。}
-{Postdoctoral researcher at the Department of Physics, Graduate School of Science, Kyoto University. I study the theoretical aspects of nonequilibrium thermodynamics.}
-\par
-}
+% {
+% \setlength{\leftskip}{0pt}
+% \je
+% {京都大学大学院 理学研究科 物理学・宇宙物理学専攻 特定研究員（学振PD）。非平衡熱力学の理論を研究しています。}
+% {Postdoctoral researcher at the Department of Physics, Graduate School of Science, Kyoto University. I study the theoretical aspects of nonequilibrium thermodynamics.}
+% \par
+% }
 
 
-\section{\je{連絡先 / リンク}{Contact \& Links}}
+% \section{\je{連絡先 / リンク}{Contact \& Links}}
 
-E-mail:
-\href{mailto:naruo.ohga@ubi.s.u-tokyo.ac.jp}{naruo.ohga@ubi.s.u-tokyo.ac.jp} \\
+\hspace{3em}
+\makebox[22em][l]{Email:
+% \href{mailto:naruo.ohga@ubi.s.u-tokyo.ac.jp}{naruo.ohga@ubi.s.u-tokyo.ac.jp} \\
+\href{mailto:ohga.naruo.7p@kyoto-u.ac.jp}{ohga.naruo.7p@kyoto-u.ac.jp}}%
+Google Scholar:
+\je{\href{https://scholar.google.com/citations?user=jOdc58QAAAAJ&hl=ja}{Naruo Ohga}}{\href{https://scholar.google.com/citations?user=jOdc58QAAAAJ}{Naruo Ohga}} \\
+\hspace{3em}
+\makebox[22em][l]
+{Webpage:
+\href{https://naruo-ohga.github.io}{https://naruo-ohga.github.io}}%
 % GitHub:
 % \href{https://github.com/naruo-ohga}{@naruo-ohga}\\
 ORCID iD:
-\href{https://orcid.org/0000-0002-1596-6284}{0000-0002-1596-6284}\\
-Google Scholar:
-\je{\href{https://scholar.google.com/citations?user=jOdc58QAAAAJ&hl=ja}{Link}}{\href{https://scholar.google.com/citations?user=jOdc58QAAAAJ}{Link}} \\
-Research map:
-\href{https://researchmap.jp/naruo_ohga}{naruo\_ohga}\\
-Webpage:
-\href{https://naruo-ohga.github.io}{https://naruo-ohga.github.io}
+\href{https://orcid.org/0000-0002-1596-6284}{0000-0002-1596-6284}
+% researchmap:
+% \href{https://researchmap.jp/naruo_ohga}{naruo\_ohga}\\
 
 
-\section{\je{キーワード}{Keywords}}
-\je{非平衡熱力学、ゆらぎの熱力学、確率過程、情報理論}{Nonequilibrium thermodynamics, Stochastic thermodynamics, Stochastic processes, Information theory}
+\section{\je{研究キーワード}{Research Profile}}
+\je
+{非平衡熱力学（ゆらぎの熱力学、化学熱力学、量子熱力学）、確率過程、情報理論}
+{Theoretical physicist specializing in nonequilibrium thermodynamics, including stochastic thermodynamics, chemical thermodynamics, and quantum thermodynamics. Particularly interested in building frameworks and uncovering universal laws using techniques from stochastic processes, information theory, and various inequalities.}
+% {Nonequilibrium thermodynamics, Stochastic thermodynamics, Stochastic processes, Information theory}
 
 
 
-\section{\je{職歴}{Academic Positions}}
+\section{\je{職歴}{Academic Appointments}}
 
 \je
-{\textbf{京都大学} 特定研究員（学振PD） 2026年4月〜現在}
-{\textbf{Kyoto University} (Kyoto, Japan), Apr.~2026--Present}\\
-\je
-{理学研究科 物理学・宇宙物理学専攻}
-{Program-Specific Researcher (JSPS PD), Department of Physics, Graduate School of Science}
+{2026年4月〜現在 --- \textbf{京都大学} 理学研究科 物理学・宇宙物理学専攻\\
+特定研究員（学振PD） （受入研究者：金澤輝代士）}
+{Apr.~2026--Present --- Department of Physics, \textbf{Kyoto University} (Kyoto, Japan)\\
+JSPS Postdoctoral Fellow / Program-Specific Researcher (Host: Prof.~Kiyoshi Kanazawa)}
 
 \section{\je{学歴}{Education}}
 
 
 \je
-{\textbf{東京大学大学院} 博士課程 2023年4月〜2026年3月}
-{\textbf{The University of Tokyo} (Tokyo, Japan), Apr.~2023--Mar.~2026}\\
-\je
-{理学系研究科 物理学専攻}
-{Doctoral Program, Department of Physics, Graduate School of Science}\\
-\je
-{学位：\textbf{博士（理学）} 2026年3月24日}
-{Degree Title: \textbf{Doctor of Philosophy} (Mar.~24, 2026)}\\
-\je
-{学位論文： ``Rigorous and universal nonequilibrium statistical physics of two-time correlations in Markov jump systems（マルコフジャンプ系の二時刻相関関数に関する厳密で普遍的な非平衡統計物理）''}
-{Thesis: ``Rigorous and universal nonequilibrium statistical physics of two-time correlations in Markov jump systems''}\\
-\je
-{［理学系研究科 研究奨励賞］}
-{[The School of Science Encouragement Award (Doctoral program)]}
+{2023年4月〜2026年3月 --- \textbf{東京大学大学院} 理学系研究科 物理学専攻\\
+2026年3月24日：\textbf{博士（理学）} （指導教員：伊藤創祐）\\
+学位論文： ``Rigorous and universal nonequilibrium statistical physics of two-time correlations in Markov jump systems（マルコフジャンプ系の二時刻相関関数に関する厳密で普遍的な非平衡統計物理）''\\
+［理学系研究科 研究奨励賞］}
+% {Apr.~2023--Mar.~2026 --- \textbf{The University of Tokyo} (Tokyo, Japan)\\
+% Doctoral Program, Department of Physics, Graduate School of Science\\
+% Advisor: Prof.~Sosuke Ito\\
+% Degree Title: \textbf{Doctor of Philosophy} (Mar.~24, 2026)\\
+% Thesis: ``Rigorous and universal nonequilibrium statistical physics of two-time correlations in Markov jump systems''\\{}%
+% [The School of Science Encouragement Award (Doctoral program)]}
+{Apr.~2023--Mar.~2026 --- Department of Physics, \textbf{The University of Tokyo} (Tokyo, Japan)\\
+Mar.~24, 2026:  \textbf{Ph.D. in Physics} (Advisor: Prof. Sosuke Ito)\\
+Dissertation: ``Rigorous and universal nonequilibrium statistical physics of two-time correlations in Markov jump systems''\\{}%
+[The School of Science Encouragement Award (Doctoral program)]}
 
 \je
-{\textbf{東京大学大学院} 修士課程 2021年4月〜2023年3月}
-{\textbf{The University of Tokyo} (Tokyo, Japan), Apr.~2021--Mar.~2023}\\
-\je
-{理学系研究科 物理学専攻}
-{Master's Program, Department of Physics, Graduate School of Science}\\
-\je
-{学位：\textbf{修士（理学）} 2023年3月23日}
-{Degree Title: \textbf{Master of Science} (Mar.~23, 2023)}\\
-\je
-{学位論文：「非平衡熱力学における情報幾何学の大域的構造とその応用」}
-{Thesis: ``Global structure in information geometry for nonequilibrium thermodynamics and its applications''}
+{2021年4月〜2023年3月 --- \textbf{東京大学大学院} 理学系研究科 物理学専攻\\
+2023年3月23日：\textbf{修士（理学）} （指導教員：伊藤創祐）\\
+学位論文：「非平衡熱力学における情報幾何学の大域的構造とその応用」}
+% {Apr.~2021--Mar.~2023 --- \textbf{The University of Tokyo} (Tokyo, Japan)\\
+% Master's Program, Department of Physics, Graduate School of Science\\
+% Advisor: Prof. Sosuke Ito\\
+% Degree Title: \textbf{Master of Science} (Mar.~23, 2023)\\
+% Thesis: ``Global structure in information geometry for nonequilibrium thermodynamics and its applications''}
+{Apr.~2021--Mar.~2023 --- Department of Physics, \textbf{The University of Tokyo} (Tokyo, Japan)\\
+Mar.~23, 2023: \textbf{M.Sc.~in Physics} (Advisor: Prof. Sosuke Ito)\\
+Thesis: ``Global structure in information geometry for nonequilibrium thermodynamics and its applications''}
 
 \je
-{\textbf{東京大学} 2017年4月〜2021年3月}
-{\textbf{The University of Tokyo} (Tokyo, Japan), Apr.~2017--Mar.~2021}\\
-\je
-{理学部 物理学科}
-{Bachelor's Program, Department of Physics, Faculty of Science}\\
-\je
-{学位：\textbf{学士（理学）} 2021年3月18日}
-{Degree Title: \textbf{Bachelor of Science} (Mar.~18, 2021)}\\
-\je
-{［理学部 学修奨励賞］}
-{[The School of Science Encouragement Award (Undergraduate Program)]}
+{2017年4月〜2021年3月 --- \textbf{東京大学} 理学部 物理学科\\
+2021年3月18日：\textbf{学士（理学）} \\{}
+［理学部 学修奨励賞］}
+% {Apr.~2017--Mar.~2021 --- \textbf{The University of Tokyo} (Tokyo, Japan)\\
+% Bachelor's Program, Department of Physics, Faculty of Science\\
+% Degree Title: \textbf{Bachelor of Science} (Mar.~18, 2021)\\{}%
+% [The School of Science Encouragement Award (Undergraduate Program)]}
+{Apr.~2017--Mar.~2021 --- Department of Physics, \textbf{The University of Tokyo} (Tokyo, Japan)\\
+Mar.~18, 2021: \textbf{B.Sc.~in Physics}\\{}%
+[The School of Science Encouragement Award (Undergraduate Program)]}
 
 
-\section{\je{論文}{Research Articles}}
+\section{\je{論文}{Publications}}
 
 
-\subsection{\je{出版論文}{Publications}}
+\subsection{\je{出版論文}{Peer-Reviewed Publications}}
 
 
 \publication
@@ -259,6 +266,91 @@ Webpage:
 
 
 
+\section{\je{受賞・採用}{Awards \& Fellowships}}
+
+%!!!!!
+%受賞にはタイトルを付すのが正式らしい。Research mapを参照。
+%!!!!!
+
+
+
+\je
+{2026年4月〜2029年3月}
+{Apr.~2026--Mar.~2029} 
+--- 
+\je
+{日本学術振興会 \href{https://www.jsps.go.jp/j-pd/index.html}{特別研究員（PD）}}
+{\href{https://www.jsps.go.jp/english/e-pd/index.html}{Research Fellowship for Young Scientists (PD)}, Japan Society for the Promotion of Science (JSPS).}
+
+
+
+\je
+{2026年3月24日}
+{Mar.~24, 2026} 
+---
+\je
+{東京大学理学系研究科 \href{https://www.phys.s.u-tokyo.ac.jp/award/48927/}{研究奨励賞}}
+{\href{https://www.phys.s.u-tokyo.ac.jp/award/48927/}{The School of Science Encouragement Award (Doctoral program)}, Graduate School of Science, The University of Tokyo}
+
+
+\je
+{2024年3月5日}
+{Mar.~5, 2024}
+---
+\je
+{新学術領域研究「情報物理学でひもとく生命の秩序と設計原理」\href{https://infophys-bio.jp/award}{第4回研究賞}}
+{\href{https://infophys-bio.jp/award}{Research award}, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters''}
+% "Research award" は受賞記念品の刻印から
+
+
+\je
+{2023年9月22日}
+{Sep.~22, 2023}
+---
+\je
+{新学術領域研究「情報物理学でひもとく生命の秩序と設計原理」\href{https://infophys-bio.jp/archives/1035}{第7回領域会議 発表賞}}
+{\href{https://infophys-bio.jp/archives/1035}{Presentation award}, 7th Conference, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters''}
+% "Presentation award" は試訳。正式名称不明
+
+
+\je
+{2023年8月16日}
+{Aug.~16, 2023}
+---
+\je
+{Physical Review Letters誌~ \href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.077101}
+{Editors' Suggestion}}{\href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.077101}{Editors' Suggestion}, Physical Review Letters}
+
+
+\je
+{2023年4月〜2026年3月}
+{Apr.~2023--Mar.~2026} 
+--- 
+\je
+{日本学術振興会 \href{https://www.jsps.go.jp/j-pd/index.html}{特別研究員（DC1）}}
+{\href{https://www.jsps.go.jp/english/e-pd/index.html}{Research Fellowship for Young Scientists (DC1)}, Japan Society for the Promotion of Science (JSPS).}
+
+\je
+{2021年4月〜2026年3月}
+{Apr.~2021--Mar.~2026} 
+--- 
+\je
+{東京大学国際卓越大学院教育プログラム（WINGS）「\href{https://www.s.u-tokyo.ac.jp/ja/FoPM/}{変革を駆動する先端物理・数学プログラム（FoPM）}」}
+{\href{https://www.s.u-tokyo.ac.jp/en/FoPM/}{Forefront Physics and Mathematics Program to Drive Transformation (FoPM)}, a World-leading Innovative Graduate Study (WINGS) Program, The University of Tokyo.}
+
+
+\je
+{2021年3月18日}
+{Mar.~18, 2021} 
+---
+\je
+{東京大学理学部 \href{https://www.phys.s.u-tokyo.ac.jp/award/27300}{学修奨励賞}}
+{\href{https://www.phys.s.u-tokyo.ac.jp/award/27300}{The School of Science Encouragement Award (Undergraduate Program)}, School of Science, The University of Tokyo}
+
+
+
+
+
 \section{\je{発表}{Presentations}}
 
 % \je{英文は国際会議、和文は国内会議を表す}{}
@@ -312,15 +404,37 @@ Webpage:
 
 
 
-\subsection{\je{セミナー}{Seminars}}
+\subsection{\je{セミナー}{Invited seminars}}
+
+
+\je{
+\SeminarJP
+{\emph{大賀成朗}}
+{Mpemba効果の確率過程による定式化と、単調性に基づくno-Mpemba定理}
+{東北大学数学教室確率論セミナー}
+{2026年7月10日}
+{2026年7月10日}
+{東北大学数学専攻、宮城}
+{Seminar}
+}{
+\SeminarEN
+{\emph{Naruo Ohga}}
+{Formulation of the Mpemba effect with stochastic processes and the no-Mpemba theory based on monotonicity} %英語タイトル提出せず
+{Tohoku Probability Seminar}
+{Jul.~10, 2026}
+{Jul.~10, 2026}
+{Mathematical Institute, Tohoku University, Miyagi, Japan}
+{Seminar}
+}
+
 
 
 \SeminarEN
 {\emph{Naruo Ohga}}
 {Microscopic theory of Mpemba effects: Rigorous and universal approaches in classical stochastic systems}
 {}
-{Apr.~22nd, 2026}
-{Apr.~22nd, 2026}
+{Apr.~22, 2026}
+{Apr.~22, 2026}
 {Yukawa Institute for Theoretical Physics, Kyoto University, Kyoto, Japan}
 {Seminar}
 
@@ -390,9 +504,9 @@ Webpage:
 {\emph{Naruo Ohga}}
 {Information-geometric duality between nonequilibrium states and tilted equilibrium states}
 {Joint-group meeting between U. Washington (Qian group) and UNC-Chapel Hill (Lu group)}
-{Jul.~14th, 2022}
-{Jul.~14th, 2022}
-{University of Washington and UNC-Chapel Hill, US (Online)}
+{Jul.~14, 2022}
+{Jul.~14, 2022}
+{University of Washington and UNC-Chapel Hill, USA (Online)}
 {Seminar}
 
 
@@ -814,84 +928,17 @@ evolution generator}
 % \section{\je{採用}{Fellowships}}
 
 
-\section{\je{受賞・採用}{Awards \& Fellowships}}
 
-%!!!!!
-%受賞にはタイトルを付すのが正式らしい。Research mapを参照。
-%!!!!!
-
-\je
-{2026年3月24日}
-{Mar.~24, 2026} 
----
-\je
-{東京大学理学系研究科 \href{https://www.phys.s.u-tokyo.ac.jp/award/48927/}{研究奨励賞}}
-{\href{https://www.phys.s.u-tokyo.ac.jp/award/48927/}{The School of Science Encouragement Award (Doctoral program)}, Graduate School of Science, The University of Tokyo}
-
-
-\je
-{2024年3月5日}
-{Mar.~5, 2024}
----
-\je
-{新学術領域研究「情報物理学でひもとく生命の秩序と設計原理」\href{https://infophys-bio.jp/award}{第4回研究賞}}
-{\href{https://infophys-bio.jp/award}{Research award}, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters''}
-% "Research award" は受賞記念品の刻印から
-
-
-\je
-{2023年9月22日}
-{Sep.~22, 2023}
----
-\je
-{新学術領域研究「情報物理学でひもとく生命の秩序と設計原理」\href{https://infophys-bio.jp/archives/1035}{第7回領域会議 発表賞}}
-{\href{https://infophys-bio.jp/archives/1035}{Presentation award}, 7th Conference, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters''}
-% "Presentation award" は試訳。正式名称不明
-
-
-\je
-{2023年8月16日}
-{Aug.~16, 2023}
----
-\je
-{Physical Review Letters誌~ \href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.077101}
-{Editors' Suggestion}}{\href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.077101}{Editors' Suggestion}, Physical Review Letters}
-
-
-\je
-{2023年4月〜2026年3月}
-{Apr.~2023--Mar.~2026} 
---- 
-\je
-{日本学術振興会 \href{https://www.jsps.go.jp/j-pd/index.html}{特別研究員（DC1）}}
-{\href{https://www.jsps.go.jp/english/e-pd/index.html}{Research Fellowship for Young Scientists (DC1)}, Japan Society for the Promotion of Science (JSPS).}
-
-\je
-{2021年4月〜2026年3月}
-{Apr.~2021--Mar.~2026} 
---- 
-\je
-{東京大学国際卓越大学院教育プログラム（WINGS）「\href{https://www.s.u-tokyo.ac.jp/ja/FoPM/}{変革を駆動する先端物理・数学プログラム（FoPM）}」}
-{\href{https://www.s.u-tokyo.ac.jp/en/FoPM/}{Forefront Physics and Mathematics Program to Drive Transformation (FoPM)}, a World-leading Innovative Graduate Study (WINGS) Program, The University of Tokyo.}
-
-
-\je
-{2021年3月18日}
-{Mar.~18, 2021} 
----
-\je
-{東京大学理学部 \href{https://www.phys.s.u-tokyo.ac.jp/award/27300}{学修奨励賞}}
-{\href{https://www.phys.s.u-tokyo.ac.jp/award/27300}{The School of Science Encouragement Award (Undergraduate Program)}, School of Science, The University of Tokyo}
-
-
-% \section{\je{教育}{Teaching}}
+\section{\je{教育}{Teaching}}
 
 
 % \subsection{\je{ティーチングアシスタント (TA)}{Teaching assistant}}
 % \je{2021年秋学期「非平衡科学」}{Autumn 2021, ``Non-equilibrium Physics''}
 
+\je{2021年秋学期}{Autumn 2021} --- 
+\je{「非平衡科学」ティーチングアシスタント (TA) }{Teaching assistant of ``Non-equilibrium Physics'' by Sosuke Ito, the University of Tokyo}
 
-\section{\je{アウトリーチ}{Outreach \& Popular science}}
+\section{\je{アウトリーチ}{Outreach \& Popular Science}}
 
 
 \je{2024年5月}{May 2024} --- 
@@ -912,8 +959,11 @@ Students' presentation at the school festival of the University of Tokyo}
 
 
 \section{\je{スキル}{Skills}}
-\je{プログラミング：}{Programming: }Python (numpy, sympy, matplotlib, pandas), C++ (modern)\\
-\je{ソフトウェア / サービス：}{Software \& Service: }\LaTeX, Adobe Illustrator
+\je
+{数理手法：確率過程、不等式、行列理論、情報理論}
+{Analytical methods: Stochastic processes, Inequalities, Matrix theory, Information theory}\\
+\je{プログラミング：}{Programming: }Python (NumPy, SymPy, Matplotlib, pandas), Modern C++\\
+\je{ソフトウェア／ツール：}{Software \& Tools: }\LaTeX, Adobe Illustrator
 
 \je{言語：}{Languages: }\je{日本語（母語）、英語（上級）、フランス語（初級）}{Japanese (native), English (fluent), French (basic)}
 
