@@ -21,11 +21,11 @@
 
 
 %========== Templates ==========
-\newcommand{\arXiv}[4]{#1, ``#2'', \frenchspacing\href{https://arxiv.org/abs/#3}{arXiv:#3} (#4).\nonfrenchspacing}
+\newcommand{\arXiv}[4]{\acitem #1, ``#2'', \frenchspacing\href{https://arxiv.org/abs/#3}{arXiv:#3} (#4).\nonfrenchspacing}
 % \newcommand{\arXiv}[4]{\textbf{``#2''}\\#1\\\frenchspacing\href{https://arxiv.org/abs/#3}{arXiv:#3} (#4).\nonfrenchspacing}
 % Usage: \arXiv{Authors}{Title}{Identifier}{Year}
 
-\newcommand{\publication}[6]{#1, ``#2'', \frenchspacing\href{https://doi.org/#4}{#3 (#5)}; \href{https://arxiv.org/abs/#6}{arXiv:#6}.\nonfrenchspacing}
+\newcommand{\publication}[6]{\acitem #1, ``#2'', \frenchspacing\href{https://doi.org/#4}{#3 (#5)}. [\href{https://arxiv.org/abs/#6}{arXiv:#6}]\nonfrenchspacing}
 % \newcommand{\publication}[6]{\textbf{``#2''}\\#1\\\frenchspacing\href{https://doi.org/#4}{#3} (#5). [\href{https://arxiv.org/abs/#6}{arXiv:#6}]\nonfrenchspacing}
 % Usage: \publishd{Authors}{Title}{Bibliography}{doi}{Year}{ArXivIdentifier}
 
@@ -33,17 +33,24 @@
 
 % \newcommand{\ConferenceJP}[7]{#1\\「#2」（#7）\\#3、#4、#6}
 % \newcommand{\ConferenceEN}[7]{#1\\``#2'' (#7)\\#3, #4, #6.}
-\newcommand{\ConferenceJP}[7]{「#2」（#7）、#3、#4、#6}
-\newcommand{\ConferenceEN}[7]{``#2'' (#7), #3, #4, #6.}
+\newcommand{\ConferenceJP}[7]{\acitem「#2」（#7）、#3、#4、#6}
+\newcommand{\ConferenceEN}[7]{\acitem ``#2'' (#7), #3, #4, #6.}
 
 \newcommand{\ifempty}[2]{\if\relax\detokenize{#1}\relax\else#1#2\fi}
 
-\newcommand{\SeminarJP}[7]{「#2」\ifempty{#3}{、}#4、#6}
-\newcommand{\SeminarEN}[7]{``#2'', \ifempty{#3}{, }#4, #6.}
+\newcommand{\SeminarJP}[7]{\acitem「#2」\ifempty{#3}{、}#4、#6}
+\newcommand{\SeminarEN}[7]{\acitem ``#2'', \ifempty{#3}{, }#4, #6.}
 
 % Usage:
 % \ConferenceJP{Author}{Title}{Conference}{Period}{Date}{Venue}{Type}
 % \ConferenceEN{Author}{Title}{Conference}{Period}{Date}{Venue}{Type}
+
+\newlength{\acindent}
+\setlength{\acindent}{1.6em}
+\newlength{\acindentsep}
+\setlength{\acindentsep}{0.6em}
+\newcounter{aclisting}
+\newcommand{\acitem}{\setlength{\hangindent}{\acindent}\stepcounter{aclisting}\makebox[\acindent][r]{\arabic{aclisting}.\hspace{\acindentsep}}}
 
 
 
@@ -65,8 +72,8 @@
 
 %========== Multi Language ==========
 \newcounter{mylanguage}
-% \setcounter{mylanguage}{0} %English
-\setcounter{mylanguage}{1} %Japanese
+\setcounter{mylanguage}{0} %English
+% \setcounter{mylanguage}{1} %Japanese
 
 
 \ifodd\value{mylanguage}
@@ -352,6 +359,8 @@ Mar.~18, 2021: \textbf{B.Sc.~in Physics}\\{}%
 
 
 \section{\je{発表}{Presentations}}
+
+\setcounter{aclisting}{0}
 
 % \je{英文は国際会議、和文は国内会議を表す}{}
 
