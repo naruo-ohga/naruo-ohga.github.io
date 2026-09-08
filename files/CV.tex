@@ -27,7 +27,7 @@
 
 \newcommand{\publication}[6]{\acitem #1, ``#2'', \frenchspacing\href{https://doi.org/#4}{#3 (#5)}. [\href{https://arxiv.org/abs/#6}{arXiv:#6}]\nonfrenchspacing}
 % \newcommand{\publication}[6]{\textbf{``#2''}\\#1\\\frenchspacing\href{https://doi.org/#4}{#3} (#5). [\href{https://arxiv.org/abs/#6}{arXiv:#6}]\nonfrenchspacing}
-% Usage: \publishd{Authors}{Title}{Bibliography}{doi}{Year}{ArXivIdentifier}
+% Usage: \publication{Authors}{Title}{Bibliography}{doi}{Year}{ArXivIdentifier}
 
 
 
@@ -84,9 +84,8 @@
 
 %========== Switches ==========
 \newcounter{mylanguage}
-\setcounter{mylanguage}{0} %English
-% \setcounter{mylanguage}{1} %Japanese
-
+\setcounter{mylanguage}{0} % English
+% \setcounter{mylanguage}{1} % Japanese
 
 \ifodd\value{mylanguage}
 \newcommand{\je}[2]{#1}
@@ -122,18 +121,7 @@
 
 \end{center}
 
-% \vspace{\baselineskip}
 
-% {
-% \setlength{\leftskip}{0pt}
-% \je
-% {京都大学大学院 理学研究科 物理学・宇宙物理学専攻 特定研究員（学振PD）。非平衡熱力学の理論を研究しています。}
-% {Postdoctoral researcher at the Department of Physics, Graduate School of Science, Kyoto University. I study the theoretical aspects of nonequilibrium thermodynamics.}
-% \par
-% }
-
-
-% \section{\je{連絡先 / リンク}{Contact \& Links}}
 
 \hspace{3em}
 \makebox[22em][l]{Email:
@@ -167,20 +155,20 @@ ORCID iD:
 \ifsubmission
 \section{\je{研究履歴}{Research Appointments}}
 
-\subsection{\je{ポジション}{Academic positions}}
+\subsection{\je{ポジション}{Academic position}} %positions
 \fi 
 
 \je
 {2026年4月〜現在 --- \textbf{京都大学} 理学研究科 物理学・宇宙物理学専攻\\
 特定研究員（学振PD） （受入研究者：金澤輝代士）}
-{Apr.~2026--Present --- Department of Physics, \textbf{Kyoto University} (Kyoto, Japan)\\
+{Apr.~2026--present --- Department of Physics, \textbf{Kyoto University} (Kyoto, Japan)\\
 JSPS Postdoctoral Fellow (Host: Prof.~Kiyoshi Kanazawa)}\\
 Research on universal properties of the timescales of nonequilibrium systems
 % JSPS Postdoctoral Fellow / Program-Specific Researcher (Host: Prof.~Kiyoshi Kanazawa)}
 
 \ifsubmission
 
-\subsection{\je{滞在研究}{Short-term research experiences}}
+\subsection{\je{滞在研究}{Short-term research experience}}
 
 Jan.~2024--Mar.~2024 --- NTT Basic Research Laboratories (Kanagawa, Japan)\\
 Research Intern (Host: Dr.~Takuya Hatomura)
@@ -196,12 +184,6 @@ Research Intern (Host: Dr.~Takuya Hatomura)
 2026年3月24日：\textbf{博士（理学）} （指導教員：伊藤創祐）\\
 学位論文： ``Rigorous and universal nonequilibrium statistical physics of two-time correlations in Markov jump systems（マルコフジャンプ系の二時刻相関関数に関する厳密で普遍的な非平衡統計物理）''\\
 ［理学系研究科 研究奨励賞］}
-% {Apr.~2023--Mar.~2026 --- \textbf{The University of Tokyo} (Tokyo, Japan)\\
-% Doctoral Program, Department of Physics, Graduate School of Science\\
-% Supervisor: Prof.~Sosuke Ito\\
-% Degree Title: \textbf{Doctor of Philosophy} (Mar.~24, 2026)\\
-% Thesis: ``Rigorous and universal nonequilibrium statistical physics of two-time correlations in Markov jump systems''\\{}%
-% [The School of Science Encouragement Award (Doctoral program)]}
 {Apr.~2023--Mar.~2026 --- Department of Physics, \textbf{The University of Tokyo} (Tokyo, Japan)\\
 Mar.~24, 2026:  \textbf{Ph.D. in Physics} (Supervisor: Prof.~Sosuke Ito)\\
 Dissertation: ``Rigorous and universal nonequilibrium statistical physics of two-time correlations in Markov jump systems''\\{}%
@@ -211,11 +193,6 @@ Dissertation: ``Rigorous and universal nonequilibrium statistical physics of two
 {2021年4月〜2023年3月 --- \textbf{東京大学大学院} 理学系研究科 物理学専攻\\
 2023年3月23日：\textbf{修士（理学）} （指導教員：伊藤創祐）\\
 学位論文：「非平衡熱力学における情報幾何学の大域的構造とその応用」}
-% {Apr.~2021--Mar.~2023 --- \textbf{The University of Tokyo} (Tokyo, Japan)\\
-% Master's Program, Department of Physics, Graduate School of Science\\
-% Supervisor: Prof.~Sosuke Ito\\
-% Degree Title: \textbf{Master of Science} (Mar.~23, 2023)\\
-% Thesis: ``Global structure in information geometry for nonequilibrium thermodynamics and its applications''}
 {Apr.~2021--Mar.~2023 --- Department of Physics, \textbf{The University of Tokyo} (Tokyo, Japan)\\
 Mar.~23, 2023: \textbf{M.Sc.~in Physics} (Supervisor: Prof.~Sosuke Ito)\\
 Thesis: ``Global structure in information geometry for nonequilibrium thermodynamics and its applications''}
@@ -224,13 +201,9 @@ Thesis: ``Global structure in information geometry for nonequilibrium thermodyna
 {2017年4月〜2021年3月 --- \textbf{東京大学} 理学部 物理学科\\
 2021年3月18日：\textbf{学士（理学）} \\{}
 ［理学部 学修奨励賞］}
-% {Apr.~2017--Mar.~2021 --- \textbf{The University of Tokyo} (Tokyo, Japan)\\
-% Bachelor's Program, Department of Physics, Faculty of Science\\
-% Degree Title: \textbf{Bachelor of Science} (Mar.~18, 2021)\\{}%
-% [The School of Science Encouragement Award (Undergraduate Program)]}
 {Apr.~2017--Mar.~2021 --- Department of Physics, \textbf{The University of Tokyo} (Tokyo, Japan)\\
 Mar.~18, 2021: \textbf{B.Sc.~in Physics}\\{}%
-\textit{The School of Science Encouragement Award (Undergraduate Program)}}
+\textit{The School of Science Encouragement Award (Undergraduate program)}}
 
 
 \section{\je{論文}{Publications}}
@@ -278,7 +251,7 @@ Mar.~18, 2021: \textbf{B.Sc.~in Physics}\\{}%
 {10.1103/PhysRevLett.131.077101}
 {2023}
 {2303.13116}
-\\\textit{Editors' Suggestion; Highlighted in \href{https://physics.aps.org/articles/v16/142}{Physics Magazine Viewpoint}; \href{https://info.aps.org/webmail/640833/1133199511/4cd193474ddc5607815b7d92d183ecaec68e367faf8818a002676ea3c3eeed44}{Most-downloaded PRL paper} in statistical physics published in 2023}%
+\\\textit{Editors' Suggestion; Featured in \href{https://physics.aps.org/articles/v16/142}{a Viewpoint in Physics Magazine}; \href{https://info.aps.org/webmail/640833/1133199511/4cd193474ddc5607815b7d92d183ecaec68e367faf8818a002676ea3c3eeed44}{Most downloaded PRL paper} in statistical physics published in 2023}%
 \ifwebpage;
 \je{[プレスリリース（\href{https://www.s.u-tokyo.ac.jp/ja/press/2023/8610/}{日本語}/\href{https://www.s.u-tokyo.ac.jp/en/press/2023/8524/}{英語}）]}
 {\textit{Press Release (\href{https://www.s.u-tokyo.ac.jp/en/press/2023/8524/}{en}/\href{https://www.s.u-tokyo.ac.jp/ja/press/2023/8610/}{ja})}}
@@ -407,7 +380,7 @@ Mar.~18, 2021: \textbf{B.Sc.~in Physics}\\{}%
 ---
 \je
 {東京大学理学部 \href{https://www.phys.s.u-tokyo.ac.jp/award/27300}{学修奨励賞}}
-{\href{https://www.phys.s.u-tokyo.ac.jp/award/27300}{The School of Science Encouragement Award (Undergraduate Program)}, School of Science, The University of Tokyo}
+{\href{https://www.phys.s.u-tokyo.ac.jp/award/27300}{The School of Science Encouragement Award (Undergraduate program)}, School of Science, The University of Tokyo}
 
 
 
@@ -438,7 +411,7 @@ Mar.~18, 2021: \textbf{B.Sc.~in Physics}\\{}%
 {Joint workshop between ``ERATO Sagawa information-to-energy interconversion project'' and ``Information physics of living matters''} %正式名称不明
 {Jun.~6--7, 2024}
 {Jun.~7, 2024}
-{The University of Tokyo, Tokyo}
+{The University of Tokyo, Tokyo, Japan}
 {Seminar}
 }
 
@@ -457,7 +430,7 @@ Mar.~18, 2021: \textbf{B.Sc.~in Physics}\\{}%
 \ConferenceEN
 {\emph{Naruo Ohga}}
 {Research on thermodynamic bounds on the asymmetry of cross-correlations (award talk)} %英語タイトル提出せず
-{8th Conference, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters,''\@gobble}
+{8th Conference, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters'',\@gobble}
 {Mar.~4--5, 2024}
 {Mar.~5, 2024}
 {Tetsumon Memorial Hall, The University of Tokyo, Tokyo, Japan}
@@ -630,7 +603,7 @@ Mar.~18, 2021: \textbf{B.Sc.~in Physics}\\{}%
 {STATPHYS28}
 {Aug.~7--11, 2023}
 {Aug.~7}
-{Hongo campus, The University of Tokyo, Tokyo, Japan}
+{Hongo Campus, The University of Tokyo, Tokyo, Japan}
 {Oral}
 
 
@@ -777,7 +750,7 @@ Mar.~18, 2021: \textbf{B.Sc.~in Physics}\\{}%
 \ConferenceEN
 {\emph{Naruo Ohga}}
 {Thermodynamic costs behind two-time correlations}
-{7th Conference, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters,''\@gobble}
+{7th Conference, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters'',\@gobble}
 {Sep.~21--22, 2023}
 {Sep.~21}
 {Toki Messe Niigata Convention Center, Niigata, Japan}
@@ -799,7 +772,7 @@ Mar.~18, 2021: \textbf{B.Sc.~in Physics}\\{}%
 \ConferenceEN
 {\emph{Naruo Ohga}}
 {Thermodynamic bounds on correlation functions and their applicability to biological energetic costs}
-{7th Conference, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters,''\@gobble}
+{7th Conference, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters'',\@gobble}
 {Sep.~21--22, 2023}
 {Sep.~21}
 {Toki Messe Niigata Convention Center, Niigata, Japan}
@@ -890,7 +863,7 @@ evolution generator}
 \ConferenceEN
 {\emph{Naruo Ohga}}
 {Thermodynamic bound on the time-reversal symmetry breaking in cross-correlations}
-{6th Conference, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters,''\@gobble}
+{6th Conference, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters'',\@gobble}
 {Mar.~6--7, 2023}
 {Mar.~6}
 {ACROS Fukuoka International Conference Hall, Fukuoka, Japan}
@@ -935,7 +908,7 @@ evolution generator}
 \ConferenceEN
 {\emph{Naruo Ohga}}
 {Thermodynamic duality between nonequilibrium relaxation processes and tilted quasi-static processes in stochastic systems}
-{5th Conference, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters,''\@gobble}
+{5th Conference, Grant-in-Aid for Scientific Research on Innovative Areas: ``Information physics of living matters'',\@gobble}
 {Jun.~20--21, 2022}
 {Jun.~20}
 {Awaji Yumebutai International Conference Center, Hyogo, Japan}
@@ -1018,7 +991,7 @@ evolution generator}
 \section{\je{教育}{Teaching}}
 
 \je{2021年秋学期}{Autumn 2021} --- 
-\je{「非平衡科学」ティーチングアシスタント (TA) }{Teaching assistant of ``Non-equilibrium Physics'' (Prof.~Sosuke Ito), the University of Tokyo}
+\je{「非平衡科学」ティーチングアシスタント (TA) }{Teaching assistant of ``Non-equilibrium Physics'' (Prof.~Sosuke Ito), The University of Tokyo}
 \fi
 
 
@@ -1028,7 +1001,7 @@ evolution generator}
 \subsection{\je{ティーチングアシスタント (TA)}{Teaching assistant}}
 
 \je{2021年秋学期}{Autumn 2021} --- 
-\je{「非平衡科学」ティーチングアシスタント (TA) }{``Non-equilibrium Physics'' (Prof.~Sosuke Ito), the University of Tokyo}
+\je{「非平衡科学」ティーチングアシスタント (TA) }{``Non-equilibrium Physics'' (Prof.~Sosuke Ito), The University of Tokyo}
 % Assisted with online streaming and assignment preparation
 
 \subsection{\je{メンター}{Research Mentoring}}
@@ -1037,11 +1010,12 @@ Informally mentored junior researchers in stochastic and quantum thermodynamics,
 
 Jan.~2025--present --- Ruicheng Bao (The University of Tokyo); resulted in a joint preprint
 
+Jun.~2024--Jan.~2026 --- Xin Wang (The University of Tokyo); resulted in a publication
+
 Apr.~2024--present --- Ayano Oda (The University of Tokyo)
 
 Mar.~2024--Jul.~2026 --- Xin-Hai Tong (The University of Tokyo); resulted in a joint preprint
 
-Jun.~2024--Jan.~2026 --- Xin Wang (The University of Tokyo); resulted in a publication
 
 
 \fi
@@ -1052,19 +1026,19 @@ Jun.~2024--Jan.~2026 --- Xin Wang (The University of Tokyo); resulted in a publi
 
 
 \je{2024年5月}{May 2024} --- 
-\je{東京大学理学部 \href{https://www.s.u-tokyo.ac.jp/ja/story/newsletter/page/10353}{理学部ニュース56巻1号} 記事「不等式の数学で探る，生命機能の物理的制約」}{Article ``Physical constraints on biological functions, explored by the mathematics of inequalities'' (in Japanese), \href{https://www.s.u-tokyo.ac.jp/ja/story/newsletter/page/10353}{Rigakubu News Vol.~56, No.~1}, School of Science, the University of Tokyo}
+\je{東京大学理学部 \href{https://www.s.u-tokyo.ac.jp/ja/story/newsletter/page/10353}{理学部ニュース56巻1号} 記事「不等式の数学で探る，生命機能の物理的制約」}{Article ``Physical constraints on biological functions, explored by the mathematics of inequalities'' (in Japanese), \href{https://www.s.u-tokyo.ac.jp/ja/story/newsletter/page/10353}{Rigakubu News Vol.~56, No.~1}, School of Science, The University of Tokyo}
 % 英文題目登録なしだが、https://www.s.u-tokyo.ac.jp/en/story/newsletter/page/10348/ に機械翻訳が載っている。ここではそれを少し改変したものを掲載
 
 
 \je{2020年5月}{May 2020} --- 
 \je{東京大学五月祭 理学部物理学科 学生展示 \href{https://event.phys.s.u-tokyo.ac.jp/physlab2020/index.html}{Physics Lab 2020} 生物物理班・量子情報班}
 {Biophysics Group \& Quantum Information Group in \href{https://event.phys.s.u-tokyo.ac.jp/physlab2020/index.html}{Physics Lab 2020},
-Students' presentation at the school festival of the University of Tokyo} 
+Students' presentation at the school festival of The University of Tokyo} 
 
 
 \je{2019年5月}{May 2019} --- \je{東京大学五月祭 理学部物理学科 学生展示 \href{https://event.phys.s.u-tokyo.ac.jp/physlab2019/}{Physics Lab 2019} 量子情報班}
 {Quantum Information Group in \href{https://event.phys.s.u-tokyo.ac.jp/physlab2019/}{Physics Lab 2019},
-Students' presentation at the school festival of the University of Tokyo} 
+Students' presentation at the school festival of The University of Tokyo} 
 
 
 
