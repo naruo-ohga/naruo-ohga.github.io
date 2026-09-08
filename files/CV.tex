@@ -41,6 +41,17 @@
 \newcommand{\SeminarJP}[7]{\acitem「#2」\ifempty{#3}{、}#4、#6}
 \newcommand{\SeminarEN}[7]{\acitem ``#2'', \ifempty{#3}{, }#4, #6.}
 
+
+% \makeatletter
+% \newcommand{\ConferenceJP}{\@ifstar{\ConferenceJP@star}{\ConferenceJP@nostar}}
+% \newcommand{\ConferenceEN}{\@ifstar{\ConferenceEN@star}{\ConferenceEN@nostar}}
+% \newcommand{\ConferenceJP@star}[7]{\acitem「#2」（#7）、#3、#4、#6}
+% \newcommand{\ConferenceEN@star}[7]{\acitem``#2'' (#7), #3, #4, #6.}
+% \newcommand{\ConferenceJP@nostar}[7]{\ifwebpage\acitem「#2」（#7）、#3、#4、#6\fi}
+% \newcommand{\ConferenceEN@nostar}[7]{\ifwebpage\acitem ``#2'' (#7), #3, #4, #6.\fi}
+% \makeatother
+
+
 % Usage:
 % \ConferenceJP{Author}{Title}{Conference}{Period}{Date}{Venue}{Type}
 % \ConferenceEN{Author}{Title}{Conference}{Period}{Date}{Venue}{Type}
@@ -71,7 +82,7 @@
 
 
 
-%========== Multi Language ==========
+%========== Switches ==========
 \newcounter{mylanguage}
 \setcounter{mylanguage}{0} %English
 % \setcounter{mylanguage}{1} %Japanese
@@ -84,6 +95,14 @@
 \usepackage[english]{datetime2}
 \fi 
 
+\newcounter{issubmission}
+% \setcounter{issubmission}{0} % Webpage
+\setcounter{issubmission}{1} % Submission
+
+\newcommand{\ifsubmission}{\ifodd\value{issubmission}}
+\newcommand{\ifwebpage}{\ifodd\value{issubmission}\relax\else}
+
+
 %========== Main ==========
 \begin{document}
 \begin{center}
@@ -91,7 +110,16 @@
 
 \LARGE {\je{Naruo Ohga}{\vspace{0.3\baselineskip}}}
 
+\ifwebpage
 \normalsize \je{（最終更新：\today）}{(Last modified: \today)}
+\fi
+
+\ifsubmission
+\vspace{-0.3\baselineskip}
+\normalsize JSPS Postdoctoral Fellow, Department of Physics, Kyoto University
+\vspace{-0.2\baselineskip}
+\fi
+
 \end{center}
 
 % \vspace{\baselineskip}
@@ -132,14 +160,33 @@ ORCID iD:
 % {Nonequilibrium thermodynamics, Stochastic thermodynamics, Stochastic processes, Information theory}
 
 
-
+\ifwebpage
 \section{\je{職歴}{Academic Appointments}}
+\fi 
+
+\ifsubmission
+\section{\je{研究履歴}{Research Appointments}}
+
+\subsection{\je{ポジション}{Academic positions}}
+\fi 
 
 \je
 {2026年4月〜現在 --- \textbf{京都大学} 理学研究科 物理学・宇宙物理学専攻\\
 特定研究員（学振PD） （受入研究者：金澤輝代士）}
 {Apr.~2026--Present --- Department of Physics, \textbf{Kyoto University} (Kyoto, Japan)\\
-JSPS Postdoctoral Fellow (Host: Prof.~Kiyoshi Kanazawa)}
+JSPS Postdoctoral Fellow (Host: Prof.~Kiyoshi Kanazawa)}\\
+Research on universal properties of the timescales of nonequilibrium systems
+% JSPS Postdoctoral Fellow / Program-Specific Researcher (Host: Prof.~Kiyoshi Kanazawa)}
+
+\ifsubmission
+
+\subsection{\je{滞在研究}{Short-term research experiences}}
+
+Jan.~2024--Mar.~2024 --- NTT Basic Research Laboratories (Kanagawa, Japan)\\
+Research Intern (Host: Dr.~Takuya Hatomura)
+
+\fi
+
 
 \section{\je{学歴}{Education}}
 
@@ -231,10 +278,11 @@ Mar.~18, 2021: \textbf{B.Sc.~in Physics}\\{}%
 {10.1103/PhysRevLett.131.077101}
 {2023}
 {2303.13116}
-\\\textit{Editors' Suggestion; Highlighted in \href{https://physics.aps.org/articles/v16/142}{Physics Magazine Viewpoint}; \href{https://info.aps.org/webmail/640833/1133199511/4cd193474ddc5607815b7d92d183ecaec68e367faf8818a002676ea3c3eeed44}{Most-downloaded PRL paper} in statistical physics published in 2023;}
+\\\textit{Editors' Suggestion; Highlighted in \href{https://physics.aps.org/articles/v16/142}{Physics Magazine Viewpoint}; \href{https://info.aps.org/webmail/640833/1133199511/4cd193474ddc5607815b7d92d183ecaec68e367faf8818a002676ea3c3eeed44}{Most-downloaded PRL paper} in statistical physics published in 2023}%
+\ifwebpage;
 \je{[プレスリリース（\href{https://www.s.u-tokyo.ac.jp/ja/press/2023/8610/}{日本語}/\href{https://www.s.u-tokyo.ac.jp/en/press/2023/8524/}{英語}）]}
 {\textit{Press Release (\href{https://www.s.u-tokyo.ac.jp/en/press/2023/8524/}{en}/\href{https://www.s.u-tokyo.ac.jp/ja/press/2023/8610/}{ja})}}
-
+\fi
 
 \publication
 {\emph{Naruo Ohga} and Sosuke Ito}
@@ -945,11 +993,39 @@ evolution generator}
 
 
 
+\ifwebpage % 不要な気もする
 \section{\je{教育}{Teaching}}
-
 
 \je{2021年秋学期}{Autumn 2021} --- 
 \je{「非平衡科学」ティーチングアシスタント (TA) }{Teaching assistant of ``Non-equilibrium Physics'' (Prof.~Sosuke Ito), the University of Tokyo}
+\fi
+
+
+\ifsubmission
+\section{\je{教育}{Teaching \& Research Mentoring}}
+
+\subsection{\je{ティーチングアシスタント (TA)}{Teaching assistant}}
+
+\je{2021年秋学期}{Autumn 2021} --- 
+\je{「非平衡科学」ティーチングアシスタント (TA) }{``Non-equilibrium Physics'' (Prof.~Sosuke Ito), the University of Tokyo}
+% Assisted with online streaming and assignment preparation
+
+\subsection{\je{メンター}{Research Mentoring}}
+
+Informally mentored junior researchers in stochastic and quantum thermodynamics, advising on research design, analytical calculations, data analysis, and manuscript preparation.
+
+Jan.~2025--present --- Ruicheng Bao (The University of Tokyo); resulted in a joint preprint
+
+Apr.~2024--present --- Ayano Oda (The University of Tokyo)
+
+Mar.~2024--Jul.~2026 --- Xin-Hai Tong (The University of Tokyo); resulted in a joint preprint
+
+Jun.~2024--Jan.~2026 --- Xin Wang (The University of Tokyo); resulted in a publication
+
+
+\fi
+
+
 
 \section{\je{アウトリーチ}{Outreach \& Popular Science}}
 
