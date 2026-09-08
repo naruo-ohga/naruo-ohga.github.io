@@ -33,12 +33,12 @@
 
 % \newcommand{\ConferenceJP}[7]{#1\\「#2」（#7）\\#3、#4、#6}
 % \newcommand{\ConferenceEN}[7]{#1\\``#2'' (#7)\\#3, #4, #6.}
-\newcommand{\ConferenceJP}[7]{\acitem「#2」（#7）、#3、#4、#6}
+\newcommand{\ConferenceJP}[7]{\acitem\hspace{-0.4zw}「#2」（#7）、#3、#4、#6}
 \newcommand{\ConferenceEN}[7]{\acitem ``#2'' (#7), #3, #4, #6.}
 
 \newcommand{\ifempty}[2]{\if\relax\detokenize{#1}\relax\else#1#2\fi}
 
-\newcommand{\SeminarJP}[7]{\acitem「#2」\ifempty{#3}{、}#4、#6}
+\newcommand{\SeminarJP}[7]{\acitem\hspace{-0.4zw}「#2」\ifempty{#3}{、}#4、#6}
 \newcommand{\SeminarEN}[7]{\acitem ``#2'', \ifempty{#3}{, }#4, #6.}
 
 
@@ -95,8 +95,8 @@
 \fi 
 
 \newcounter{issubmission}
-% \setcounter{issubmission}{0} % Webpage
-\setcounter{issubmission}{1} % Submission
+\setcounter{issubmission}{0} % Webpage
+% \setcounter{issubmission}{1} % Submission
 
 \newcommand{\ifsubmission}{\ifodd\value{issubmission}}
 \newcommand{\ifwebpage}{\ifodd\value{issubmission}\relax\else}
@@ -162,8 +162,10 @@ ORCID iD:
 {2026年4月〜現在 --- \textbf{京都大学} 理学研究科 物理学・宇宙物理学専攻\\
 特定研究員（学振PD） （受入研究者：金澤輝代士）}
 {Apr.~2026--present --- Department of Physics, \textbf{Kyoto University} (Kyoto, Japan)\\
-JSPS Postdoctoral Fellow (Host: Prof.~Kiyoshi Kanazawa)}\\
-Research on universal properties of the timescales of nonequilibrium systems
+JSPS Postdoctoral Fellow (Host: Prof.~Kiyoshi Kanazawa)}
+\ifsubmission
+\\Research on universal properties of the timescales of nonequilibrium systems
+\fi
 % JSPS Postdoctoral Fellow / Program-Specific Researcher (Host: Prof.~Kiyoshi Kanazawa)}
 
 \ifsubmission
@@ -1045,7 +1047,7 @@ Students' presentation at the school festival of The University of Tokyo}
 \section{\je{スキル}{Skills}}
 \je
 {数理手法：確率過程、不等式、行列理論、情報理論}
-{Analytical methods: Stochastic processes, Inequalities, Information theory}\\
+{Analytical methods: Stochastic processes, Inequalities, Matrix theory, Information theory}\\
 \je{プログラミング：}{Programming: }Python (NumPy, SymPy, Matplotlib, pandas), Modern C++\\
 \je{ソフトウェア／ツール：}{Software \& Tools: }\LaTeX, Adobe Illustrator
 
